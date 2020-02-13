@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/study/PAT/B/1016.cpp
+D:/study/PAT/B/1066.cpp
 iostream
 -
-string
+iomanip
 -
 

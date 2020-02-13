@@ -18,7 +18,7 @@ int main(){
     cin >> len;
     short *seq = new short[len];
     char cover[150];
-    memset(cover, UNUSED, 150);
+    memset(cover, UNUSED, sizeof(cover));
     for(int i = 0; i < len; ++i){
         cin>>seq[i];
         cover[seq[i]] = UNCOVERED;

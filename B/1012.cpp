@@ -8,7 +8,7 @@ int main() {
     int x;
     int a1 = 0, a2 = 0, a3 = 0, a4 = 0, a5 = -1000, signal = 1, a4n = 0;
     bool flag[5];
-    memset(flag, false, 5);
+    memset(flag, false, sizeof(flag));
     for(int i = 0; i < num; ++i) {
         cin >> x;
         if(x % 5 == 0 && x % 2 == 0){
