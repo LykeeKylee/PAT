@@ -56,27 +56,27 @@ include CMakeFiles/B.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/B.dir/flags.make
 
-CMakeFiles/B.dir/1091.cpp.obj: CMakeFiles/B.dir/flags.make
-CMakeFiles/B.dir/1091.cpp.obj: ../1091.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\study\PAT\B\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/B.dir/1091.cpp.obj"
-	D:\Software\mingw64\8.1.0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\B.dir\1091.cpp.obj -c D:\study\PAT\B\1091.cpp
+CMakeFiles/B.dir/1017.cpp.obj: CMakeFiles/B.dir/flags.make
+CMakeFiles/B.dir/1017.cpp.obj: ../1017.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\study\PAT\B\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/B.dir/1017.cpp.obj"
+	D:\Software\mingw64\8.1.0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\B.dir\1017.cpp.obj -c D:\study\PAT\B\1017.cpp
 
-CMakeFiles/B.dir/1091.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/B.dir/1091.cpp.i"
-	D:\Software\mingw64\8.1.0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study\PAT\B\1091.cpp > CMakeFiles\B.dir\1091.cpp.i
+CMakeFiles/B.dir/1017.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/B.dir/1017.cpp.i"
+	D:\Software\mingw64\8.1.0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study\PAT\B\1017.cpp > CMakeFiles\B.dir\1017.cpp.i
 
-CMakeFiles/B.dir/1091.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/B.dir/1091.cpp.s"
-	D:\Software\mingw64\8.1.0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study\PAT\B\1091.cpp -o CMakeFiles\B.dir\1091.cpp.s
+CMakeFiles/B.dir/1017.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/B.dir/1017.cpp.s"
+	D:\Software\mingw64\8.1.0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study\PAT\B\1017.cpp -o CMakeFiles\B.dir\1017.cpp.s
 
 # Object files for target B
 B_OBJECTS = \
-"CMakeFiles/B.dir/1091.cpp.obj"
+"CMakeFiles/B.dir/1017.cpp.obj"
 
 # External object files for target B
 B_EXTERNAL_OBJECTS =
 
-B.exe: CMakeFiles/B.dir/1091.cpp.obj
+B.exe: CMakeFiles/B.dir/1017.cpp.obj
 B.exe: CMakeFiles/B.dir/build.make
 B.exe: CMakeFiles/B.dir/linklibs.rsp
 B.exe: CMakeFiles/B.dir/objects1.rsp
