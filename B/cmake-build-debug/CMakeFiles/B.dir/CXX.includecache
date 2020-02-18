@@ -6,10 +6,10 @@
 
 #IncludeRegexTransform: 
 
-D:/study/PAT/B/1032.cpp
+D:/study/PAT/B/1042.cpp
 iostream
 -
-algorithm
+string
 -
 cstring
 -
