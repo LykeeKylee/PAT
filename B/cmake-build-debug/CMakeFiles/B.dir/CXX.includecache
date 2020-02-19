@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/study/PAT/B/1042.cpp
+/home/lykee/Junior/Study/PAT/B/1049.cpp
 iostream
 -
-string
--
-cstring
+iomanip
 -
 

@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.14.5)
 project(B)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(B 1042.cpp)
+add_executable(B 1049.cpp)
