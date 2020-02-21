@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/lykee/Junior/Study/PAT/B/1049.cpp
+/home/lykee/Junior/Study/PAT/B/1062.cpp
 iostream
 -
-iomanip
+cmath
+-
+random
+-
+ctime
 -
 
