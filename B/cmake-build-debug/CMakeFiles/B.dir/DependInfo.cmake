@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lykee/Junior/Study/PAT/B/1003.cpp" "/home/lykee/Junior/Study/PAT/B/cmake-build-debug/CMakeFiles/B.dir/1003.cpp.o"
+  "/home/lykee/Junior/Study/PAT/B/1050.cpp" "/home/lykee/Junior/Study/PAT/B/cmake-build-debug/CMakeFiles/B.dir/1050.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

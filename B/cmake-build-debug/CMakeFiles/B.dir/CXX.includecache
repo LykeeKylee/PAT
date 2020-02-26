@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lykee/Junior/Study/PAT/B/1003.cpp
-iostream
--
-string
+/home/lykee/Junior/Study/PAT/B/1050.cpp
+bits/stdc++.h
 -
 
