@@ -57,27 +57,27 @@ include CMakeFiles/B.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/B.dir/flags.make
 
-CMakeFiles/B.dir/1065.cpp.o: CMakeFiles/B.dir/flags.make
-CMakeFiles/B.dir/1065.cpp.o: ../1065.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lykee/Junior/Study/PAT/B/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/B.dir/1065.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/B.dir/1065.cpp.o -c /home/lykee/Junior/Study/PAT/B/1065.cpp
+CMakeFiles/B.dir/1090.cpp.o: CMakeFiles/B.dir/flags.make
+CMakeFiles/B.dir/1090.cpp.o: ../1090.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lykee/Junior/Study/PAT/B/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/B.dir/1090.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/B.dir/1090.cpp.o -c /home/lykee/Junior/Study/PAT/B/1090.cpp
 
-CMakeFiles/B.dir/1065.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/B.dir/1065.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lykee/Junior/Study/PAT/B/1065.cpp > CMakeFiles/B.dir/1065.cpp.i
+CMakeFiles/B.dir/1090.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/B.dir/1090.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lykee/Junior/Study/PAT/B/1090.cpp > CMakeFiles/B.dir/1090.cpp.i
 
-CMakeFiles/B.dir/1065.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/B.dir/1065.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lykee/Junior/Study/PAT/B/1065.cpp -o CMakeFiles/B.dir/1065.cpp.s
+CMakeFiles/B.dir/1090.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/B.dir/1090.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lykee/Junior/Study/PAT/B/1090.cpp -o CMakeFiles/B.dir/1090.cpp.s
 
 # Object files for target B
 B_OBJECTS = \
-"CMakeFiles/B.dir/1065.cpp.o"
+"CMakeFiles/B.dir/1090.cpp.o"
 
 # External object files for target B
 B_EXTERNAL_OBJECTS =
 
-B : CMakeFiles/B.dir/1065.cpp.o
+B : CMakeFiles/B.dir/1090.cpp.o
 B : CMakeFiles/B.dir/build.make
 B : CMakeFiles/B.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lykee/Junior/Study/PAT/B/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable B"
