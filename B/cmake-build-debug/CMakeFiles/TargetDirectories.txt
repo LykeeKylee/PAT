@@ -1,3 +1,0 @@
-/home/lykee/Junior/Study/PAT/B/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lykee/Junior/Study/PAT/B/cmake-build-debug/CMakeFiles/B.dir
-/home/lykee/Junior/Study/PAT/B/cmake-build-debug/CMakeFiles/edit_cache.dir
