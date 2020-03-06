@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14.5)
-project(algorithm)
+project(A)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(algorithm dijkstra.cpp)
+add_executable(A 1003.cpp)

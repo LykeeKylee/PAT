@@ -1,7 +1,18 @@
-PAT Test Practice
+#PAT Test Practice
 
-Need:
-大整数运算
+##Nead to learn
+* Large integer operation
 
-Pace:
-乙 92/95
+##Pace
+* Basic Level: 95/95
+* Advanced Level: 3/155
+
+##Classification of problems 
+* String：1001
+* Simulation：1002
+* Dijkstra：1003
+
+##Some notes
+* use fill() to initialize arrays
+* use #include<bits/stdc++.h> to reduce codes
+* 
