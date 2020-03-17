@@ -2,22 +2,33 @@
 
 ## Nead to learn
 * Large integer operation
+* Graph theory
+* Judge the prime number
+* Gcd
 
 ## Paces
 * Basic Level: 95/95
 * Advanced Level: 12/155
 
 ## Classifications of problems 
-* String: 1001, 1005
+* String: 1001, 1005, 1014
+* Radix Conversion: 1014
+* Prime: 1014
 * Simulation: 1002, 1006, 1008, 1009, 1011
 * Dijkstra: 1003
-* DFS&BFS: 1004
+* DFS && BFS: 1004, 1013
 * Dynamic Programming: 1007
 * Partition: 1007
 * Binary Search: 1010
 * About Grades: 1012
+* Graph Theory: 1013
+* Queue && Priority Queue: 1013 
 
 ## Some notes
+* MOST IMPORTANT 
+* IS TO 
+* READ QUESTIONS CAREFULLY.
+* 
 * Use fill() to initialize arrays.
 * Use #include<bits/stdc++.h> to reduce codes.
 * Main codes about DFS&BFS can be seen in problem 1004.
