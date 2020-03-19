@@ -5,27 +5,28 @@
 * Graph theory
 * Judge the prime number
 * Gcd
+* Preorder, Inorder, Postorder
 
 ## Paces
 * Basic Level: 95/95
 * Advanced Level: 12/155
 
 ## Classifications of problems 
-* String: 1001, 1005, 1014
-* Radix Conversion: 1014
-* Prime: 1014
-* Simulation: 1002, 1006, 1008, 1009, 1011
+* String: 1001, 1005, 1010, 1015, 1023
+* Simulation: 1008, 1022
+* Sort: 1006, 1011, 1012, 1016
+* Map or Set: 1002, 1009, 1022
 * Dijkstra: 1003
-* DFS && BFS: 1004, 1013
-* Dynamic Programming: 1007
-* Partition: 1007
-* Binary Search: 1010
-* About Grades: 1012
-* Graph Theory: 1013
-* Queue && Priority Queue: 1013 
+* Graph: 1003, 1013
+* Tree: 1004, 1020
+* BFS or DFS: 1004, 1013
+* DP: 1007
+* Priority Queue or Queue: 1014, 1017
+* Prime Number: 1015
+* Radix: 1010, 1015, 1019
 
 ## Some notes
-* MOST IMPORTANT 
+* THE MOST IMPORTANT 
 * IS TO 
 * READ QUESTIONS CAREFULLY.
 * 
