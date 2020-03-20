@@ -12,16 +12,16 @@
 * Advanced Level: 12/155
 
 ## Classifications of problems 
-* String: 1001, 1005, 1010, 1015, 1023
-* Simulation: 1008, 1022
-* Sort: 1006, 1011, 1012, 1016
+* String: 1001, 1005, 1010, 1015, 1023, 1024
+* Simulation: 1008, 1022, 1026
+* Sort: 1006, 1011, 1012, 1016, 1025
 * Map or Set: 1002, 1009, 1022
 * Dijkstra: 1003
 * Graph: 1003, 1013
 * Tree: 1004, 1020
 * BFS or DFS: 1004, 1013
 * DP: 1007
-* Priority Queue or Queue: 1014, 1017
+* Priority Queue or Queue: 1014, 1017, 1026
 * Prime Number: 1015
 * Radix: 1010, 1015, 1019
 
