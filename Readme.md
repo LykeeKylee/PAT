@@ -1,10 +1,10 @@
 # PAT Test Practice
 
 ## Nead to learn
-* Large integer operation
+* Large number operation（use string, demical)
 * Graph theory
-* Judge the prime number
-* Gcd
+* ~~Judge the prime number simply~~
+* ~~Gcd~~
 * Preorder, Inorder, Postorder
 * How to use set, map, pair in STL
 
@@ -38,4 +38,3 @@
 * Use isdigit(x) to judge whether x is a number or not.
 * Note that numbers may be out of the range of int and long long. Avoid to use unsigned types.It's useless.(1010)
 * Nomally the rank is like 1, 1, 3, 4, 4, 6.(1012)
-

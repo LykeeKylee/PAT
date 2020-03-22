@@ -3,4 +3,4 @@ project(algorithm)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(algorithm use_priority_queue.cpp)
+add_executable(algorithm judege_prime.cpp)
