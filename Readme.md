@@ -1,6 +1,6 @@
 # PAT Test Practice
 
-## Nead to learn
+## To do list
 * Large number operation（use string, demical)
 * Graph theory
 * ~~Judge the prime number simply~~
@@ -14,17 +14,18 @@
 
 ## Classifications of problems 
 * String: 1001, 1005, 1010, 1015, 1023, 1024
-* Simulation: 1008, 1022, 1026, 1153
+* Simulation: 1008, 1022, 1026, 1144, 1148, 1153
 * Sort: 1006, 1011, 1012, 1016, 1025
-* Map or Set or Pair: 1002, 1009, 1022, 1153, 1154
+* Map or Set or Pair: 1002, 1009, 1022, 1149, 1153, 1154
 * Dijkstra: 1003
-* Graph: 1003, 1013, 1154
-* Tree: 1004, 1020
+* Graph: 1003, 1013, 1150, 1154
+* Tree: 1004, 1020, 1151
 * BFS or DFS: 1004, 1013
 * DP: 1007
 * Priority Queue or Queue: 1014, 1017, 1026
 * Prime Number: 1015, 1152
 * Radix: 1010, 1015, 1019
+* Heap: 1155
 
 ## Some notes
 * THE MOST IMPORTANT 
