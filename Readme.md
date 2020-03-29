@@ -1,15 +1,15 @@
 # PAT Test Practice
 
 ## To do list
-* Large number operation（use string, demical)
+* ~~Large number operation（add, minus, multiple)~~
 * Graph theory
 * ~~Judge the prime number simply~~
 * ~~Gcd~~
-* Preorder, Inorder, Postorder
+* ~~Preorder, Inorder, Postorder~~
 * How to use set, map, pair in STL
 * Hash
 * Heap
-* convert string to integer
+* ~~convert string to integer~~
 * Linked List
 * red-black tree
 
