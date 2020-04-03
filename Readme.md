@@ -1,5 +1,5 @@
 # PAT Test Practice
-
+[TOC]
 ## To do list
 * ~~Large number operation（add, minus, multiple)~~
 * Graph theory
@@ -19,9 +19,9 @@
 
 ## Classifications of problems 
 * String: 1001, 1005, 1010, 1015, 1023, 1024, 1132, 1136, 1140
-* Simulation: 1008, 1022, 1026, 1120, 1124, 1125, 1128, 1137, 1141, 1144, 1148, 1153
+* Simulation: 1008, 1022, 1026, 1117, 1120, 1124, 1125, 1128, 1137, 1141, 1144, 1148, 1153
 * Sort: 1006, 1011, 1012, 1016, 1025
-* Map or Set or Pair: 1002, 1009, 1022, 1121, 1130, 1138, 1149, 1153, 1154
+* Map or Set or Pair: 1002, 1009, 1022, 1116, 1121, 1130, 1138, 1149, 1153, 1154
 * Dijkstra: 1003
 * Graph: 1003, 1013, 1122, 1126, 1134, 1142, 1146, 1150, 1154
 * Tree: 1004, 1020, 1123, 1127, 1130, 1135, 1138, 1143, 1151
@@ -33,6 +33,7 @@
 * Heap: 1147, 1155
 * Hash: 1145
 * Linked List: 1133
+* Union Find: 1118
 
 ## Some notes
 * THE MOST IMPORTANT 
