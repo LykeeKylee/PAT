@@ -6,17 +6,18 @@
 * ~~Judge the prime number simply~~
 * ~~Gcd~~
 * ~~Preorder, Inorder, Postorder~~
-* How to use set, map, pair in STL
+* ~~How to use set, map, pair in STL~~
 * Hash
 * Heap
 * ~~convert string to integer~~
 * Linked List
 * red-black tree
+* AVL
 * Union Find
 
 ## Paces
 * Basic Level: 95/95
-* Advanced Level: 67/155
+* Advanced Level: 68/155
 
 ## Classifications of problems 
 * String: 1001, 1005, 1010, 1015, 1023, 1024, 1112, 1132, 1136, 1140
@@ -25,7 +26,7 @@
 * Map or Set or Pair: 1002, 1009, 1022, 1116, 1121, 1130, 1138, 1149, 1153, 1154
 * Dijkstra: 1003
 * Graph: 1003, 1013, 1122, 1126, 1134, 1142, 1146, 1150, 1154
-* Tree: 1004, 1020, 1115, 1123, 1127, 1130, 1135, 1138, 1143, 1151
+* Tree: 1004, 1020, 1115, 1119, 1123, 1127, 1130, 1135, 1138, 1143, 1151
 * BFS or DFS: 1004, 1013, 1123, 1131
 * DP: 1007
 * Priority Queue or Queue: 1014, 1017, 1026
