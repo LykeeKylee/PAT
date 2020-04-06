@@ -51,7 +51,7 @@ int main() {
                 int to = i, w = maps[cur][i];
                 if(curdst + w < distances[to]) {
                     distances[to] = curdst + w;
-                    // Note that there may be more than one road to current city!!!So all the roads need to be counted!
+                    // Note that there may be more than one road to the current city!!!So all the roads need to be counted!
                     num[to] = num[cur];
                     teams[to] = teams[cur] + weight[to];
                 }
