@@ -21,12 +21,13 @@
 
 ## Classifications of problems 
 * String: 1001, 1005, 1010, 1015, 1023, 1024, 1108, 1112, 1132, 1136, 1140
+* Math: 1104, 1105
 * Simulation: 1008, 1022, 1026, 1119, 1113, 1117, 1120, 1124, 1125, 1128, 1137, 1141, 1144, 1148, 1153
 * Sort: 1006, 1011, 1012, 1016, 1025
 * Map or Set or Pair: 1002, 1009, 1022, 1116, 1121, 1130, 1138, 1149, 1153, 1154
 * Dijkstra: 1003, 1111
 * Graph: 1003, 1013, 1122, 1126, 1134, 1142, 1146, 1150, 1154
-* Tree: 1004, 1020, 1110, 1115, 1119, 1123, 1127, 1130, 1135, 1138, 1143, 1151
+* Tree: 1004, 1020, 1106, 1110, 1115, 1119, 1123, 1127, 1130, 1135, 1138, 1143, 1151
 * BFS or DFS: 1004, 1013, 1123, 1131
 * DP: 1007
 * Priority Queue or Queue: 1014, 1017, 1026
@@ -52,3 +53,4 @@
 * use copy(a.begin(), a.end(), b.begin()) to copy a vector/array
 * stoi(str, &c, base)  stod(str, &c)  c: string::size_type 
 * string::npos
+* vector<vector<int>> a(row, vector<int>)
