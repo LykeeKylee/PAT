@@ -17,13 +17,13 @@
 
 ## Paces
 * Basic Level: 95/95
-* Advanced Level: 79/155
+* Advanced Level: 82/155
 
 ## Classifications of problems 
 * String: 1001, 1005, 1010, 1015, 1023, 1024, 1108, 1112, 1132, 1136, 1140
 * Math: 1100, 1101, 1104, 1105, 1117
 * Simulation: 1008, 1022, 1026, 1119, 1113, 1120, 1124, 1125, 1128, 1137, 1141, 1144, 1148, 1153
-* Sort: 1006, 1011, 1012, 1016, 1025
+* Sort: 1006, 1011, 1012, 1016, 1025, 1098
 * Map or Set or Pair: 1002, 1009, 1022, 1116, 1121, 1130, 1138, 1149, 1153, 1154
 * Dijkstra: 1003, 1111
 * Graph: 1003, 1013, 1122, 1126, 1134, 1142, 1146, 1150, 1154
@@ -33,10 +33,11 @@
 * Priority Queue or Queue: 1014, 1017, 1026
 * Prime Number: 1015, 1152
 * Radix: 1010, 1015, 1019
-* Heap: 1147, 1155
+* Heap: 1098, 1147, 1155
 * Hash: 1145
-* Linked List: 1133
+* Linked List: 1097, 1133
 * Union Find: 1107, 1114, 1118
+* Dfs and Partition: 1103
 
 ## Some notes
 * THE MOST IMPORTANT 
