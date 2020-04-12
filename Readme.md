@@ -1,6 +1,6 @@
 # PAT Test Practice
 [TOC]
-## To do list
+## To Do List
 * ~~Large number operation（add, minus, multiple)~~
 * Graph theory
 * ~~Judge the prime number simply~~
@@ -8,18 +8,18 @@
 * ~~Preorder, Inorder, Postorder~~
 * ~~How to use set, map, pair in STL~~
 * Hash
-* Heap
+* ~~Heap~~
 * ~~convert string to integer~~
 * Linked List
 * red-black tree
 * AVL
-* Union Find
+* ~~Union Find~~
 
 ## Paces
 * Basic Level: 95/95
 * Advanced Level: 82/155
 
-## Classifications of problems 
+## Classifications
 * String: 1001, 1005, 1010, 1015, 1023, 1024, 1108, 1112, 1132, 1136, 1140
 * Math: 1100, 1101, 1104, 1105, 1117
 * Simulation: 1008, 1022, 1026, 1119, 1113, 1120, 1124, 1125, 1128, 1137, 1141, 1144, 1148, 1153
@@ -39,7 +39,7 @@
 * Union Find: 1107, 1114, 1118
 * Dfs and Partition: 1103
 
-## Some notes
+## Some Notes
 * THE MOST IMPORTANT 
 * IS TO 
 * READ QUESTIONS CAREFULLY.
@@ -52,6 +52,6 @@
 * Note that numbers may be out of the range of int and long long. Avoid to use unsigned types. It's not useful.(1010)
 * Nomally the rank is like 1, 1, 3, 4, 4, 6.(1012)
 * use copy(a.begin(), a.end(), b.begin()) to copy a vector/array
-* stoi(str, &c, base)  stod(str, &c)  c: string::size_type 
+* stoi(str, &c, base)  stod(str, &c), c denotes string::size_type 
 * string::npos
 * vector<vector<int>> a(row, vector<int>)
