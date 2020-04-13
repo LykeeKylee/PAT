@@ -14,6 +14,7 @@
 * red-black tree
 * AVL
 * ~~Union Find~~
+* Bitset
 
 ## Paces
 * Basic Level: 95/95
