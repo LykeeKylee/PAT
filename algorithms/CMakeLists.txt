@@ -3,4 +3,4 @@ project(algorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(algorithm union_find.cpp)
+add_executable(algorithm stl.cpp)

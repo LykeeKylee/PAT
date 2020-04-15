@@ -9,10 +9,22 @@
 
 using namespace std;
 
+// 1: sort a set with my rule
 struct setcmp {
     bool operator() (const int &a, const int &b) const {
         return a > b;
     }
+//    set<type, setcmp> set1;
+};
+
+// 2: sort a set with my rule
+struct t {
+    int a;
+    int b;
+    bool operator< (const t &y) const {
+        return this->a < y.a;
+    }
+//    set<type> set2;
 };
 
 int main() {
