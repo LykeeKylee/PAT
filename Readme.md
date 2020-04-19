@@ -15,7 +15,7 @@
 * AVL
 * ~~Union Find~~
 * Bitset
-* binary tree traversal with a non-recursive way
+* ~~binary tree traversal with a non-recursive way~~
 
 ## Paces
 * Basic Level: 95/95
