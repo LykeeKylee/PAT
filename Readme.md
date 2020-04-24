@@ -19,12 +19,12 @@
 
 ## Paces
 * Basic Level: 95/95
-* Advanced Level: 104/155
+* Advanced Level: 106/155
 
 ## Classifications
 * String: 1001, 1005, 1010, 1015, 1023, 1024, 1073, 1077, 1082, 1084, 1092, 1108, 1112, 1132, 1136, 1140
 * Math: 1081, 1085, 1088, 1093, 1096, 1100, 1101, 1104, 1105, 1117
-* Simulation: 1008, 1022, 1026, 1080, 1095, 1119, 1113, 1120, 1124, 1125, 1128, 1137, 1141, 1144, 1148, 1153
+* Simulation: 1008, 1022, 1026, 1075, 1080, 1095, 1119, 1113, 1120, 1124, 1125, 1128, 1137, 1141, 1144, 1148, 1153
 * Sort: 1006, 1011, 1012, 1016, 1025, 1083, 1089, 1098
 * Map or Set or Pair: 1002, 1009, 1022, 1116, 1121, 1130, 1138, 1149, 1153, 1154
 * Dijkstra: 1003,  1087, 1111
@@ -37,7 +37,7 @@
 * Radix: 1010, 1015, 1019
 * Heap: 1098, 1147, 1155
 * Hash: 1078, 1145
-* Linked List: 1097, 1133
+* Linked List: 1074, 1097, 1133
 * Union Find: 1107, 1114, 1118
 * Dfs and Partition: 1103
 
@@ -57,3 +57,4 @@
 * stoi(str, &c, base)  stod(str, &c), c denotes string::size_type 
 * string::npos
 * vector<vector<int>> a(row, vector<int>)
+* There may be some isolated nodes in the linked list.
