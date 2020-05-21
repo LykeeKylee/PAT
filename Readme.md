@@ -20,7 +20,7 @@
 
 ## Paces
 * Basic Level: 95/95
-* Advanced Level: 151/155
+* Advanced Level: 152/155
 
 ## Classifications
 * String: 1001, 1005, 1010, 1015, 1023, 1024, 1035, 1040, 1050, 1060, 1061, 1069, 1071, 1073, 1077, 1082, 1084, 1092, 1108, 1112, 1132, 1136, 1140
@@ -41,7 +41,7 @@
 * Linked List: 1032, 1052, 1074, 1097, 1133
 * Union Find: 1034, 1107, 1114, 1118
 * Dfs and Partition: 1103
-* Greedy: 1037, 1067, 1070
+* Greedy: 1037, 1038, 1067, 1070
 * AVL: 1066, 1123
 * Binary Search: 1044
 * Stack: 1051
