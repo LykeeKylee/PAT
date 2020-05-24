@@ -1,5 +1,13 @@
 # PAT Test Practice
-[TOC]
+
+- [PAT Test Practice](#pat-test-practice)
+  - [To Do List](#to-do-list)
+  - [Paces](#paces)
+  - [Classifications](#classifications)
+  - [Some Notes](#some-notes)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## To Do List
 * ~~Large number operation（add, minus, multiple)~~
@@ -18,10 +26,11 @@
 * Bitset
 * ~~binary tree traversal with a non-recursive way~~
 * <u>**Dynamic** **Programming**</u>
+* Binary Indexed Tree
 
 ## Paces
 * Basic Level: 95/95
-* Advanced Level: 153/155
+* Advanced Level: 155/155
 
 ## Classifications
 * String: 1001, 1005, 1010, 1015, 1023, 1024, 1035, 1040, 1050, 1060, 1061, 1069, 1071, 1073, 1077, 1082, 1084, 1092, 1108, 1112, 1132, 1136, 1140
@@ -42,10 +51,11 @@
 * Linked List: 1032, 1052, 1074, 1097, 1133
 * Union Find: 1034, 1107, 1114, 1118
 * Dfs and Partition: 1103
-* Greedy: 1037, 1038, 1067, 1070
+* Greedy: 1033, 1037, 1038, 1067, 1070
 * AVL: 1066, 1123
 * Binary Search: 1044
 * Stack: 1051
+* Binary Indexed Tree: 1057
 
 ## Some Notes
 * THE MOST IMPORTANT IS TO READ DESCRIPTIONS CAREFULLY.
