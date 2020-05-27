@@ -23,7 +23,6 @@
 * red-black tree
 * AVL
 * ~~Union Find~~
-* Bitset
 * ~~binary tree traversal with a non-recursive way~~
 * <u>**Dynamic** **Programming**</u>
 * Binary Indexed Tree
@@ -31,6 +30,7 @@
 ## Paces
 * Basic Level: 95/95
 * Advanced Level: 155/155
+* Advanced Level(Second): 4/155
 
 ## Classifications
 * String: 1001, 1005, 1010, 1015, 1023, 1024, 1035, 1040, 1050, 1060, 1061, 1069, 1071, 1073, 1077, 1082, 1084, 1092, 1108, 1112, 1132, 1136, 1140
@@ -44,12 +44,12 @@
 * BFS or DFS: 1004, 1013, 1018, 1030, 1053, 1076, 1079, 1087, 1091, 1123, 1131
 * DP: 1007, 1045, 1068
 * Priority Queue or Queue: 1014, 1017, 1026
-* Prime Number: 1015, 1152
+* Prime Number: ~~1015~~, ~~1059~~, ~~1152~~
 * Radix: 1010, 1027, 1015, 1019
 * Heap: 1098, 1147, 1155
 * Hash: 1039, 1078, 1145
 * Linked List: 1032, 1052, 1074, 1097, 1133
-* Union Find: 1034, ~~1107~~, ~~1114~~, ~~1118~~
+* Union Find: ~~1034~~, ~~1107~~, ~~1114~~ , ~~1118~~
 * Dfs and Partition: 1103
 * Greedy: 1033, 1037, 1038, 1067, 1070
 * AVL: 1066, 1123
