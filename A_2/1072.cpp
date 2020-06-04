@@ -1,93 +1,73 @@
 #include<bits/stdc++.h>
 using namespace std;
-const int msize = 1050, inf = 999999999;
-int n, m, k, ds, graph[msize][msize], minimumDist = -1, index = 0;
-double avgDist = inf * 1.0;
-bool visit[msize];
-int encode(char x[]) {
-	int id = 0;
-	if(x[0] == 'G') {
-		for(int i = 1; i < strlen(x); ++i)
-			id = id * 10 + x[i] - '0';
-		id += n;
+const int inf = 999999999;
+int n, m, k, ds, best_station = -1;
+double best_min = -1.0, best_avg = -1.0;
+vector<pair<int, int>> road[1020];
+bool visit[1020];
+int nameMapping(string a) {
+	if(isalpha(a[0])) {
+		a[0] = '0';
+		while(a.length() < 3) a = '0' + a;
+		a = '1' + a;
 	}
-	else {
-		for(int i = 0; i < strlen(x); ++i)
-			id = id * 10 + x[i] - '0';
-	}
-	return id;
+	return atoi(a.c_str());
 }
-void dijkstra(int cand) {
-	fill(visit, visit + msize, false);
-	vector<int> dists(n + m + 1, inf);
-	dists[cand] = 0;
-	int remain = n + m, curDist = inf, cur;
-	while(remain > 0) {
-		curDist = inf;
-		for(int i = 1; i <= n + m; ++i) {
-			if(!visit[i] && dists[i] < curDist) {
+void dijkstra(int root) {
+	int distance[1020], left = n + m, cur_min = inf, cur_len = 0;
+	fill(distance, distance + 1020, inf);
+	fill(visit, visit + 1020, false);
+	distance[root] = 0;
+	while(left > 0) {
+		int cur = inf, curdist = inf;
+		for(int i = 1; i <= n; ++i) {
+			if(!visit[i] && distance[i] < curdist) {
+				curdist = distance[i];
 				cur = i;
-				curDist = dists[i];
 			}
 		}
+		for(int i = 1001; i <= 1000 + m; ++i) {
+			if(!visit[i] && distance[i] < curdist) {
+				curdist = distance[i];
+				cur = i;
+			}
+		}
+		if(cur == inf) return;
 		visit[cur] = true;
-		remain--;
-		
-		for(int i = 1; i <= n + m; ++i) {
-			if(!visit[i] && graph[cur][i] != inf) {
-				if(curDist + graph[cur][i] < dists[i])
-					dists[i] = curDist + graph[cur][i];
-			}
+		for(int i = 0; i < road[cur].size(); ++i) {
+			int end = road[cur][i].first, dist = road[cur][i].second;
+			if(!visit[end] && curdist + dist < distance[end]) distance[end] = curdist + dist;
 		}
+		--left;
 	}
-//	for(int i = 1; i <= n; ++i) cout << dists[i] << ' ';
-//	cout << endl; 
-	int cnt = 0, minD = inf;
+	bool flag = true;
 	for(int i = 1; i <= n; ++i) {
-		if(dists[i] > ds) return;
-		cnt += dists[i];
-		minD = dists[i] < minD ? dists[i] : minD;
-	}
-	if(minD > minimumDist) {
-		minimumDist = minD;
-		avgDist = cnt * 1.0 / n;
-		index = cand;
-	}
-	else if(minD == minimumDist) {
-		if(cnt * 1.0 / n < avgDist) {
-			avgDist = cnt * 1.0 / n;
-			index = cand;
+		if(distance[i] > ds) {
+			flag = false;
+			break;
 		}
-		else if(cnt * 1.0 / n == avgDist) 
-			index = cand;
+		cur_len += distance[i];
+		cur_min = distance[i] < cur_min ? distance[i] : cur_min;
+	}
+	double cur_avg = cur_len * 1.0 / n;
+	if(flag && (cur_min * 1.0 > best_min || (cur_min * 1.0 == best_min && cur_avg < best_avg))) {
+		best_station = root;
+		best_min = cur_min * 1.0;
+		best_avg = cur_avg * 1.0;
 	}
 }
 int main() {
-	#ifndef ONLINE_JUDGE
-	freopen("data.txt", "r", stdin);
-	#endif
-	
 	int i, j;
+	string p1, p2;
 	scanf("%d %d %d %d", &n, &m, &k, &ds);
-	fill(graph[0], graph[0] + msize * msize, inf);
 	for(i = 0; i < k; ++i) {
-		char p1[7], p2[7];
-		int pp1, pp2, dist;
-		scanf("%s %s %d", p1, p2, &dist);
-		pp1 = encode(p1);
-		pp2 = encode(p2);
-		graph[pp1][pp2] = graph[pp2][pp1] = dist;
+		cin >> p1 >> p2 >> j;
+		int x = nameMapping(p1), y = nameMapping(p2);
+		road[x].emplace_back(make_pair(y, j));
+		road[y].emplace_back(make_pair(x, j));
 	}
-//	for(i = 1; i <= n + m; ++i) {
-//		for(j = 1; j <= n + m; ++j) 
-//			printf("% 10d ", graph[i][j]);
-//		cout << endl;
-//	}
-	for(i = n + 1; i <= n + m; ++i)
-		dijkstra(i);
-	if(!index)
-		printf("No Solution\n");
-	else
-		printf("G%d\n%0.1f %0.1f", index - n, (double)minimumDist, avgDist + 0.005);
+	for(i = 1; i <= m; ++i) dijkstra(1000 + i);
+	if(best_station == -1) printf("No Solution\n");
+	else printf("G%d\n%.1lf %.1lf\n", best_station - 1000, best_min, best_avg + 0.001);
 	return 0;
 }
